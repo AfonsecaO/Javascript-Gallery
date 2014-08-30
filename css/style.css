@@ -1,0 +1,19 @@
+img{
+	width: 100%;
+	border-radius: 0.3em;
+	margin: 1em;
+}
+
+div{
+	width: 500px;
+	min-height: 250px;
+}
+
+.filmstrip{
+	width: 100%;
+}
+
+.filmstrip img{
+	display: inline-block;
+	max-width: 150px;
+}
