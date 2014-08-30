@@ -17,6 +17,9 @@ function initWidget ( gallery, images, mode, index ) {
 		for (var k in images){
 			
 			var img = new nextImage( gallery, images, mode, k );
+			img.classList.add("img-thumbnail");
+			img.classList.remove("img-responsive");
+
 			filmstrip.appendChild(img);
 			
 			var galleryContainer = document.getElementById( gallery );
@@ -32,6 +35,8 @@ var nextImage = function( gallery, images, mode, index ){
 	var img = new Image();
 	
 	img.src   = images[index].src;
+	img.classList.add("img-responsive");
+
 	img.name  = index;
 
 	img.addEventListener( "click", function ( e ){
