@@ -35,15 +35,13 @@ var nextImage = function( gallery, images, mode, index ){
 	var img = new Image();
 	
 	img.src   = images[index].src;
+
 	img.classList.add("img-responsive");
 
 	img.name  = index;
 
 	img.addEventListener( "click", function ( e ){
 		
-		console.log( this.name );
-		console.log( this.parentNode.id )
-
 		var imgIndex = parseInt( this.name );
 
 		if( mode != "thumbnail" ){
