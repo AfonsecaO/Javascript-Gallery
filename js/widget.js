@@ -1,9 +1,9 @@
-function initWidget ( gallery, mode, index ) {
+function initWidget ( gallery, images, mode, index ) {
 
 	var mode  = mode || "single";
 	var index = index || 0;
 
-	var img = new nextImage( gallery, mode, index );
+	var img = new nextImage( gallery, images, mode, index );
 
 	var galleryContainer = document.getElementById( gallery );
 	galleryContainer.innerHTML = "";
@@ -11,14 +11,12 @@ function initWidget ( gallery, mode, index ) {
 	
 	if( mode == "thumbnail" ){
 		
-		var thumbnail = my_images.thumbnail;
-
 		var filmstrip = document.createElement("div");
 		filmstrip.classList.add("filmstrip");
 
-		for (var k in thumbnail){
+		for (var k in images){
 			
-			var img = new nextImage( gallery, mode, k );
+			var img = new nextImage( gallery, images, mode, k );
 			filmstrip.appendChild(img);
 			
 			var galleryContainer = document.getElementById( gallery );
@@ -29,11 +27,11 @@ function initWidget ( gallery, mode, index ) {
 
 }
 
-var nextImage = function( gallery, mode, index ){
+var nextImage = function( gallery, images, mode, index ){
 
 	var img = new Image();
 	
-	img.src   = my_images[mode][index].src;
+	img.src   = images[index].src;
 	img.name  = index;
 
 	img.addEventListener( "click", function ( e ){
@@ -46,11 +44,11 @@ var nextImage = function( gallery, mode, index ){
 		if( mode != "thumbnail" ){
 			imgIndex = parseInt( this.name ) + 1;
 
-			if( ( my_images[ mode ].length - 1 ) == this.name )
+			if( ( images.length - 1 ) == this.name )
 				imgIndex = 0;			
 		}
 
-		var img = new nextImage( gallery, mode, imgIndex );
+		var img = new nextImage( gallery, images, mode, imgIndex );
 
 		var galleryContainer = document.getElementById( gallery );
 		galleryContainer.innerHTML = "";
