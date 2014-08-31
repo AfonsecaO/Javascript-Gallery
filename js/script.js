@@ -53,8 +53,8 @@ document.onreadystatechange = function () {
 		initWidget( "gallery-quito", quito);
 		initWidget( "gallery-guayaquil", guayaquil, "thumbnail");
 
-		initWidget( "gallery-cuenca", cuenca, "single", 4 );
-		initWidget( "gallery-loja", loja, "thumbnail", 8 );
+		initWidget( "gallery-cuenca", cuenca, "single", 1 );
+		initWidget( "gallery-loja", loja, "thumbnail", 2 );
 
 	}
 }
