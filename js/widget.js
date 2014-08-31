@@ -18,7 +18,7 @@ function initWidget ( gallery, images, mode, index ) {
 			
 			var img = new nextImage( gallery, images, mode, k );
 			img.classList.add("img-thumbnail");
-			img.classList.remove("img-responsive");
+			img.classList.remove("img-large");
 
 			filmstrip.appendChild(img);
 			
@@ -36,7 +36,7 @@ var nextImage = function( gallery, images, mode, index ){
 	
 	img.src   = images[index].src;
 
-	img.classList.add("img-responsive");
+	img.classList.add("img-large");
 
 	img.name  = index;
 

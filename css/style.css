@@ -1,15 +1,25 @@
+/* General */
+html{
+	 font-size : 16px;
+}
 body{
 	text-align: center;
+	background: #F7F7F7;
 }
-
 h1, h2, footer{
+	background-color: #1D77EF;
+	color: #F7F7F7;
 	margin: 0;
 	padding: 1em;
 }
+ol, ul{
+	text-align: left;
+}
 
+/* Widget */
 .container{
-	border: 2px solid #5f8acc;
 	border-radius: 0.5em;
+	border: 2px solid #1D77EF;
 	display: inline-block;
 	margin: 1em;
 	overflow: hidden;
@@ -20,27 +30,30 @@ h1, h2, footer{
 .container-gallery, .filmstrip{
 	display: inline-block;
 	margin: 2em;
+	max-height: 350px;
 	min-width: 250px;
 	vertical-align: middle;
 	width: 40%;
 }
 
-.img-responsive{
-	border-radius: 1em;
-	border: 3px solid #ccc;
-	box-shadow: rgba(0,0,0,0.5) 0 0 10px;
+.img-large, .img-thumbnail{
+	border-radius: 0.5em;
+	border: 3px solid #F7F7F7;	
+	box-shadow: rgba(0,0,0,0.5) 5px 3px 5px;
 	display: inline-block;
+}
+
+.img-large{
 	max-height: 344px;
+	width: 100%;
 }
 
 .img-thumbnail{
-	display: inline-block;
 	margin: 1em 0.5em;
 	max-height: 62px;
 	width: 80px;
 }
 
 .filmstrip{
-	max-height: 350px;
 	overflow: auto;
 }
