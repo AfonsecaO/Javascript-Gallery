@@ -1,5 +1,5 @@
 # Javascript-Gallery
-### without any JavaScript libraries
+##### without any JavaScript libraries
 
 
 Gallery widget Version 1.0
@@ -15,8 +15,8 @@ by Alan Fonseca O.
  	-- Chrome Version 37.0.2062.94
  	-- Safari Version 8.0 (10600.1.8)
  	
-## How to setup.
-==================
+# How to setup.
+
 ### 1.- Link the files
 
 	 	<link rel="stylesheet" href="css/style.css">
