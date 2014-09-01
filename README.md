@@ -1,7 +1,8 @@
 Javascript-Gallery
 ==================
 without any JavaScript libraries
-==================
+
+
 Gallery widget Version 1.0
 
 30/08/2014
@@ -9,7 +10,7 @@ Gallery widget Version 1.0
 Demo gallery widget.
 
 by Alan Fonseca O.
-==================
+
 Tested on
 
  	-- Chrome Version 37.0.2062.94
