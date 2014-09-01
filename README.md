@@ -1,7 +1,8 @@
 Javascript-Gallery
 ==================
 without any JavaScript libraries
---
+
+/**
 Gallery widget Version 1.0
 30/08/2014
 Demo gallery widget.
@@ -13,11 +14,13 @@ Tested on
 How to setup.
  
 1.- Link the files
-	 	css/style.css
-		js/widget.js
+	 	<link rel="stylesheet" href="css/style.css">
+		<script src="js/widget.js"></script>
 
 2.- Create a container
-		div.container>div#CONTAINER_GALLERY_ID.container-gallery
+		<section class="container">
+			<div id="CONTAINER_GALLERY_ID" class="container-gallery"></div>
+		</section>
 
 3.- Create image object with the path for each image
 		 var IMAGE_OBJECT = [
@@ -45,4 +48,5 @@ How to setup.
 			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT, "single", INDEX );
 			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT, "thumbnail", INDEX );
 
-5.- Enjoy it.
+5.- Enjoy it.	
+ */
