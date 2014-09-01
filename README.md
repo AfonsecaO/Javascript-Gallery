@@ -2,6 +2,9 @@ Javascript-Gallery
 ==================
 without any JavaScript libraries
 
+<pre>
+	
+
 Gallery widget Version 1.0
 30/08/2014
 Demo gallery widget.
@@ -48,3 +51,4 @@ How to setup.
 			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT, "thumbnail", INDEX );
 
 5.- Enjoy it.
+</pre>
