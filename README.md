@@ -2,7 +2,6 @@ Javascript-Gallery
 ==================
 without any JavaScript libraries
 
-/**
 Gallery widget Version 1.0
 30/08/2014
 Demo gallery widget.
@@ -14,7 +13,7 @@ Tested on
 How to setup.
  
 1.- Link the files
-	 	<link rel="stylesheet" href="css/style.css">
+	 	<!-- <link rel="stylesheet" href="css/style.css"> -->
 		<script src="js/widget.js"></script>
 
 2.- Create a container
@@ -24,14 +23,14 @@ How to setup.
 
 3.- Create image object with the path for each image
 		 var IMAGE_OBJECT = [
-				{ "src" : "images/Q1.jpg" },
-				{ "src" : "images/Q2.jpg" },
-				{ "src" : "images/Q3.jpg" },
-				{ "src" : "images/Q4.jpg" },
-				{ "src" : "images/Q5.jpg" },
-				{ "src" : "images/Q6.jpg" },
-				{ "src" : "images/Q7.jpg" },
-				{ "src" : "images/Q8.jpg" },
+				{ "src" : "images/img1.jpg" },
+				{ "src" : "images/img2.jpg" },
+				{ "src" : "images/img3.jpg" },
+				{ "src" : "images/img4.jpg" },
+				{ "src" : "images/img5.jpg" },
+				{ "src" : "images/img6.jpg" },
+				{ "src" : "images/img7.jpg" },
+				{ "src" : "images/img8.jpg" },
 		]
 
 4.- Initialize widget
@@ -49,4 +48,3 @@ How to setup.
 			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT, "thumbnail", INDEX );
 
 5.- Enjoy it.	
- */
