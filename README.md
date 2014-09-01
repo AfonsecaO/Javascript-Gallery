@@ -13,6 +13,7 @@ Tested on
 How to setup.
  
 1.- Link the files
+
 		```bash
 	 	<link rel="stylesheet" href="css/style.css">
 		<script src="js/widget.js"></script>
@@ -20,6 +21,7 @@ How to setup.
 
 
 2.- Create a container
+
 		```bash
 		<section class="container">
 			<div id="CONTAINER_GALLERY_ID" class="container-gallery"></div>
@@ -27,6 +29,7 @@ How to setup.
 		```
 
 3.- Create image object with the path for each image
+
 		```bash
 		 var IMAGE_OBJECT = [
 				{ "src" : "images/img1.jpg" },
@@ -41,6 +44,7 @@ How to setup.
 		```
 
 4.- Initialize widget
+
  		-- SINGLE MODE
  			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT );
  			OR
