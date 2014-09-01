@@ -1,7 +1,7 @@
 Javascript-Gallery
 ==================
 without any JavaScript libraries
----	
+--
 Gallery widget Version 1.0
 30/08/2014
 Demo gallery widget.
