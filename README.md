@@ -1,35 +1,34 @@
-Javascript-Gallery
-==================
-without any JavaScript libraries
+# Javascript-Gallery
+### without any JavaScript libraries
 
 
 Gallery widget Version 1.0
-
-30/08/2014
 
 Demo gallery widget.
 
 by Alan Fonseca O.
 
-Tested on
+30/08/2014
+
+### Tested on
 
  	-- Chrome Version 37.0.2062.94
  	-- Safari Version 8.0 (10600.1.8)
  	
-How to setup.
+## How to setup.
 ==================
-1.- Link the files
+### 1.- Link the files
 
 	 	<link rel="stylesheet" href="css/style.css">
 		<script src="js/widget.js"></script>
 
-2.- Create a container
+### 2.- Create a container
 
 		<section class="container">
 			<div id="CONTAINER_GALLERY_ID" class="container-gallery"></div>
 		</section>
 
-3.- Create image object with the path for each image
+### 3.- Create image object with the path for each image
 
 		 var IMAGE_OBJECT = [
 				{ "src" : "images/img1.jpg" },
@@ -42,7 +41,7 @@ How to setup.
 				{ "src" : "images/img8.jpg" },
 		]
 
-4.- Initialize widget
+### 4.- Initialize widget
 
  		-- SINGLE MODE
  			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT );
@@ -57,4 +56,4 @@ How to setup.
 			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT, "single", INDEX );
 			initWidget( "CONTAINER_GALLERY_ID", IMAGE_OBJECT, "thumbnail", INDEX );
 
-5.- Enjoy it.	
+### 5.- Enjoy it.	
