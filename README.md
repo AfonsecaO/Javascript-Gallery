@@ -1,5 +1,5 @@
 # Javascript-Gallery
-##### without any JavaScript libraries
+*without any JavaScript libraries*
 
 
 Gallery widget Version 1.0
