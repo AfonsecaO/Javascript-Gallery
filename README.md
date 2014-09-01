@@ -6,31 +6,27 @@ Gallery widget Version 1.0
 30/08/2014
 Demo gallery widget.
 by Alan Fonseca O.
+
 Tested on
- 	--- Chrome Version 37.0.2062.94
- 	--- Safari Version 8.0 (10600.1.8)
+
+ 	-- Chrome Version 37.0.2062.94
+ 	-- Safari Version 8.0 (10600.1.8)
  	
 How to setup.
  
 1.- Link the files
 
-		```bash
 	 	<link rel="stylesheet" href="css/style.css">
 		<script src="js/widget.js"></script>
-		```
-
 
 2.- Create a container
 
-		```bash
 		<section class="container">
 			<div id="CONTAINER_GALLERY_ID" class="container-gallery"></div>
 		</section>
-		```
 
 3.- Create image object with the path for each image
 
-		```bash
 		 var IMAGE_OBJECT = [
 				{ "src" : "images/img1.jpg" },
 				{ "src" : "images/img2.jpg" },
@@ -41,7 +37,6 @@ How to setup.
 				{ "src" : "images/img7.jpg" },
 				{ "src" : "images/img8.jpg" },
 		]
-		```
 
 4.- Initialize widget
 
